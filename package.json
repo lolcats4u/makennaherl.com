@@ -1,13 +1,11 @@
 {
-  "dependencies": {
-    "@11ty/eleventy": "^3.1.2",
-    "dotenv": "^17.2.3"
-  },
   "name": "makennaherl.com",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "serve": "npx eleventy --serve --host=localhost",
+    "start": "npx eleventy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/lolcats4u/makennaherl.com/issues"
   },
-  "homepage": "https://github.com/lolcats4u/makennaherl.com#readme"
+  "homepage": "https://github.com/lolcats4u/makennaherl.com#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.2"
+  },
+  "dependencies": {
+    "nunjucks": "^3.2.4"
+  }
 }
