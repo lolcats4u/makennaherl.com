@@ -2,10 +2,10 @@
   "name": "makennaherl.com",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "",
   "scripts": {
-    "serve": "npx eleventy --serve --host=localhost",
-    "start": "npx eleventy",
+    "serve": "npx @11ty/eleventy --serve --port=8081",
+    "build": "npx eleventy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
