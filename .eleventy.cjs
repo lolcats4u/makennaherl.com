@@ -1,6 +1,3 @@
-const path = require("path");
-const os = require("os");
-
 module.exports = function (eleventyConfig) {
   eleventyConfig.addNunjucksFilter("date", function(value, format = "day-year") {
     const date = new Date(value);
@@ -11,6 +8,7 @@ module.exports = function (eleventyConfig) {
 
   // Optional: copy static assets
   eleventyConfig.addPassthroughCopy("src/assets");
+  eleventyConfig.addPassthroughCopy("src/images");
   eleventyConfig.addPassthroughCopy({ "src/js_scripts": "js_scripts" });
   eleventyConfig.addPassthroughCopy({ "src/models": "models" });
   // Resolve the output directory reliably
@@ -20,7 +18,7 @@ module.exports = function (eleventyConfig) {
     dir: {
       input: "src",
       includes: "_includes",
-      layouts: "_includes/layouts",
+      layouts: "layouts",
       output: outputDir,
       models: "models"
     },

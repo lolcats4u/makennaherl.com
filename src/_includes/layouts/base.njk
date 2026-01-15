@@ -7,12 +7,11 @@
   <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
-  {% include "components/header.njk" %}
-  <main>
-    {{ content | safe }}
-  </main>
+  {% include "partials/site-head.html" %}
+  <main tabindex="-1" id="main-content">{% block content %}₍^. .^₎Ⳋ Under Construction 🗼🚧{% endblock %}</main>
+
   <footer>
-    <p>&copy; {{ "now" | date("YYYY") }} Makenna Herl</p>
+    <p>Makenna Herl</p>
   </footer>
 </body>
 </html>

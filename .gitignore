@@ -1,2 +1,15 @@
 _site/
-node_modules/
+
+# Misc
+*.log
+npm-debug.*
+*.scssc
+*.swp
+.DS_Store
+.sass-cache
+.env
+.cache
+
+# Node modules and output
+node_modules
+dist
