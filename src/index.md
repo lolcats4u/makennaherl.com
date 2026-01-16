@@ -7,7 +7,7 @@ intro:
   summary: 'Look at the kitty.'
   buttonText: ' View Kitty'
   buttonUrl: '/work'
-  image: '/images/polite_cat.png'
+  image: '/images/bg/polite_cat.png'
   imageAlt: 'Polite Cat'
 primaryCTA:
   title: 'This is a kitty'
