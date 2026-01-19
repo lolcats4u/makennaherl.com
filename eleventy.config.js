@@ -7,6 +7,10 @@ export default function (eleventyConfig) {
 	eleventyConfig.addCollection('work', (collection) => {
 		return sortByDisplayOrder(collection.getFilteredByGlob('./src/work/*.md'));
 	});
+	// Returns a collection of blog posts in reverse date order
+	eleventyConfig.addCollection('blog', (collection) => {
+		return [...collection.getFilteredByGlob('./src/posts/*.md')].reverse();
+	});
 	// Creates and returns a collection of work that is set to be featured
 	eleventyConfig.addCollection('featuredWork', (collection) => {
 		return sortByDisplayOrder(collection.getFilteredByGlob('./src/work/*.md')).filter(
@@ -29,3 +33,4 @@ function sortByDisplayOrder(collection) {
 		Number(a.data.displayOrder) > Number(b.data.displayOrder) ? 1 : -1,
 	);
 }
+
