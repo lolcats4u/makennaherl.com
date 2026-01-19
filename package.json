@@ -1,30 +1,11 @@
 {
-  "name": "makennaherl.com",
-  "version": "1.0.0",
-  "description": "",
-  "main": "",
-  "scripts": {
-    "serve": "npx @11ty/eleventy --serve --port=8081",
-    "build": "npx eleventy",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lolcats4u/makennaherl.com.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/lolcats4u/makennaherl.com/issues"
-  },
-  "homepage": "https://github.com/lolcats4u/makennaherl.com#readme",
-  "devDependencies": {
-    "@11ty/eleventy": "^3.1.2"
-  },
-  "dependencies": {
-    "nunjucks": "^3.2.4",
-    "three": "^0.182.0"
-  }
+	"scripts": {
+		"start": "eleventy --serve --port=8081",
+		"build": "eleventy"
+	},
+	"type": "module",
+	"dependencies": {
+		"@11ty/eleventy": "^3.1.2",
+		"@11ty/eleventy-fetch": "^5.1.1"
+	}
 }
