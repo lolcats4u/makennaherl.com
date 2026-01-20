@@ -1,5 +1,6 @@
 ---
 title: 'Makennas Site'
+metaDesc: 'I will eventually make this a professional personal site'
 layout: 'layouts/home.html'
 intro:
   eyebrow: 'Cats, DevOps and Art'

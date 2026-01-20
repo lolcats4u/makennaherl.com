@@ -1,6 +1,7 @@
 // Filters
 import { dateFilter } from './src/filters/date-filter.js';
 import { w3DateFilter } from './src/filters/w3-date-filter.js';
+import rssPlugin from '@11ty/eleventy-plugin-rss';
 export default function (eleventyConfig) {
 	eleventyConfig.setInputDirectory('src');
 	eleventyConfig.setOutputDirectory('dist');
@@ -13,7 +14,9 @@ export default function (eleventyConfig) {
 	// Returns a collection of blog posts in reverse date order
 	eleventyConfig.addCollection('blog', (collection) => {
 		return [...collection.getFilteredByGlob('./src/posts/*.md')].reverse();
-	});
+	});	
+	// Plugins
+	eleventyConfig.addPlugin(rssPlugin);
 	// Creates and returns a collection of work that is set to be featured
 	eleventyConfig.addCollection('featuredWork', (collection) => {
 		return sortByDisplayOrder(collection.getFilteredByGlob('./src/work/*.md')).filter(
@@ -29,6 +32,7 @@ export default function (eleventyConfig) {
 		return collection.getFilteredByGlob('./src/people/*.md').sort((a, b) => {
 			return Number(a.fileSlug) > Number(b.fileSlug) ? 1 : -1;
 		});
+
 });
 
 }
