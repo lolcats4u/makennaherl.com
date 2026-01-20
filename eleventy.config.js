@@ -24,6 +24,13 @@ export default function (eleventyConfig) {
 	eleventyConfig.addFilter('dateFilter', dateFilter);
 	eleventyConfig.addFilter('w3DateFilter', w3DateFilter);
 
+	// Returns a list of people ordered by filename
+	eleventyConfig.addCollection('people', (collection) => {
+		return collection.getFilteredByGlob('./src/people/*.md').sort((a, b) => {
+			return Number(a.fileSlug) > Number(b.fileSlug) ? 1 : -1;
+		});
+});
+
 }
 export const config = {
 	markdownTemplateEngine: 'njk',
