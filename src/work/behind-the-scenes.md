@@ -5,34 +5,30 @@ beautiful places on earth.'
 displayOrder: 2
 featured: true
 hero:
-  image: '/images/work/behind-the-scenes-hero.jpg'
-  imageAlt: 'A composition of all the views from the app'
+  image: '/images/work/cat_reads_reddit.jpg'
+  imageAlt: 'one day I will understand how web design works. Today is not that day'
 keyFacts:
   - primary: '50%'
-    secondary: 'Increase in engagement'
+    secondary: 'other peoples websites are cool'
   - primary: '10%'
-    secondary: 'Increase in sales'
+    secondary: 'other peoples websites are colorful'
   - primary: '£1,000,000'
-    secondary: 'In extra revenue'
+    secondary: 'number of moneys i didnt make from web design'
   - primary: '750 hours'
-    secondary: 'In saved productivity'
+    secondary: 'of confusion'
   - primary: '4'
-    secondary: 'International awards'
+    secondary: 'coffies into tutorial'
   - primary: '£28,000'
-    secondary: 'Saved in digital advertising'
+    secondary: 'man rent is expensive nowadays huh'
 gallery:
-  - title: 'Creative layouts'
-    summary: 'We made sure the content sang with some creative layout
-    and typography work, while making sure the content was easy to
-    read.'
-    image: '/images/work/behind-the-scenes-gallery-1.jpg'
-  - title: 'Keeping it clear'
-    summary: 'We wanted to make sure the content was as clear as it
-    could be, regardless of what it was.'
-    image: '/images/work/behind-the-scenes-gallery-3.jpg'
-  - title: 'Beautiful photography'
-    summary: 'We made the the stunning photography sit center stage
-    because let’s be honest: that’s what you all came for.'
-    image: '/images/work/behind-the-scenes-gallery-3.jpg'
+  - title: 'Chill and have faith in the process'
+    summary: 'We promise to allow the process to happen we do not promise to chill.'
+    image: '/images/work/piebald_chonk_with_intel_laptop.jpg'
+  - title: 'general confusion over words'
+    summary: 'What even is a widget? I haven't had a pointless 3 hr lecture in a minute.'
+    image: '/images/work/what_even_is_this_kitty.jpg'
+  - title: 'Is it random or is it a tagging sequence'
+    summary: 'kitty promises to pretend to be profound while saying absolutely nothing.'
+    image: '/images/work/cat_keyboard_walk_impact_meme.jpg'
 team: [1, 4, 6]
 ---

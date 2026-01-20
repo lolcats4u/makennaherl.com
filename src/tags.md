@@ -5,6 +5,6 @@ pagination:
   data: collections
   size: 1
   alias: tag
-  filter: ['all', 'nav', 'blog', 'work', 'featuredWork', 'people', 'rss']
+  filter: ['all', 'nav', 'blog', 'work', 'featuredWork', 'people', 'rss', 'meow']
 permalink: '/tag/{{ tag | slugify }}/'
 ---
