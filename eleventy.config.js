@@ -1,3 +1,6 @@
+// Filters
+import { dateFilter } from './src/filters/date-filter.js';
+import { w3DateFilter } from './src/filters/w3-date-filter.js';
 export default function (eleventyConfig) {
 	eleventyConfig.setInputDirectory('src');
 	eleventyConfig.setOutputDirectory('dist');
@@ -17,6 +20,10 @@ export default function (eleventyConfig) {
 			(x) => x.data.featured,
 		);
 	});
+	// Add filters
+	eleventyConfig.addFilter('dateFilter', dateFilter);
+	eleventyConfig.addFilter('w3DateFilter', w3DateFilter);
+
 }
 export const config = {
 	markdownTemplateEngine: 'njk',

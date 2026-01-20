@@ -25,7 +25,7 @@ gallery:
     summary: 'We promise to allow the process to happen we do not promise to chill.'
     image: '/images/work/piebald_chonk_with_intel_laptop.jpg'
   - title: 'general confusion over words'
-    summary: 'What even is a widget? I haven't had a pointless 3 hr lecture in a minute.'
+    summary: 'What even is a widget? I havent had a pointless 3 hr lecture in a minute.'
     image: '/images/work/what_even_is_this_kitty.jpg'
   - title: 'Is it random or is it a tagging sequence'
     summary: 'kitty promises to pretend to be profound while saying absolutely nothing.'
