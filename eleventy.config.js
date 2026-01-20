@@ -47,4 +47,3 @@ function sortByDisplayOrder(collection) {
 		Number(a.data.displayOrder) > Number(b.data.displayOrder) ? 1 : -1,
 	);
 }
-

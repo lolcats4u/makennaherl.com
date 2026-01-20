@@ -4,28 +4,27 @@ summary: 'A travel website to help make booking easier.'
 displayOrder: 5
 featured: false
 hero:
-  image: '/images/work/travel-today-hero.jpg'
-  imageAlt: 'The travel today hero image'
+  image: '/images/work/curious_kitties_look_inside.jpg'
+  imageAlt: 'The kitties looking in side image.'
 keyFacts:
   - primary: '50%'
-    secondary: 'Increase in engagement'
+    secondary: 'Increase in curious'
   - primary: '10%'
-    secondary: 'Increase in sales'
+    secondary: INumber of noses'
   - primary: '£1,000,000'
-    secondary: 'In extra revenue'
+    secondary: 'In toe bean wealth'
   - primary: '750 hours'
-    secondary: 'In saved productivity'
+    secondary: 'of catnaps'
   - primary: '4'
-    secondary: 'International awards'
+    secondary: 'Paws'
   - primary: '£28,000'
-    secondary: 'Saved in digital advertising'
+    secondary: 'vet bills'
 gallery:
   - title: 'Clear information'
-    summary: 'We let the stunning locations do the talking.'
-    image: '/images/work/travel-today-gallery-1.jpg'
+    summary: 'We are kitties'
+    image: '/images/work/what_even_is_this_kitty.jpg'
   - title: 'Simple booking'
-    summary: 'We give the user total control but keep it clean and
-    simple for them.'
-    image: '/images/work/travel-today-gallery-2.jpg'
+    summary: 'Idk bro'
+    image: '/images/work/kitty_about_to_use_touchpad.jpg'
 team: [1, 2, 5]
 ---
